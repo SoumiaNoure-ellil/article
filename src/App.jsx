@@ -12,7 +12,7 @@ import './App.css'
 
 function App() {
   return (
-    <ChicProvider>
+   
       <BrowserRouter>
         <Header />
         <Routes>
@@ -26,7 +26,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </ChicProvider>
+   
   );
 }
 

@@ -1,5 +1,4 @@
-import React, { useState, useContext } from "react";
-import { ChicContext } from "./appContext";
+import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 export default function Garcon() {  // On retire la prop fille

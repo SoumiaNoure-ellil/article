@@ -1,9 +1,8 @@
 import { useSelector } from "react-redux";
 import Card from "./Card";
-import { useState, useEffect } from "react";
-
+import { useState, useEffect } from "react" ; 
 export default function Accueil() {
-  const data = useSelector(state => state.data);
+  const data = useSelector(state => state);
   const [count, setCount] = useState(0);
   const maxCount = 1100;
   const delay = 100;

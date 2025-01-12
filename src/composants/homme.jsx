@@ -1,5 +1,4 @@
-import React, { useState, useContext } from "react";
-import { ChicContext } from "./appContext";
+import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 
 export default function Homme() {

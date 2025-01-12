@@ -7,7 +7,7 @@ const initialState = {
     hommes: data.hommes,
     filles: data.filles,
     garcons: data.garcons ,
-   panier: []
+    panier: []
 };
 
 const reducer = (state = initialState, action) => {
