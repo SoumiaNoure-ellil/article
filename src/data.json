@@ -1,0 +1,493 @@
+{
+    "femmes": [
+      {
+        "id": 1,
+        "nom": "Robe d'été légère",
+        "taille": ["S", "M", "L"],
+        "couleur": ["bleu", "blanc", "rose"],
+        "prix": 49.99,
+        "image_url": "./src/img/f/06375763400-c.jpg"
+      },
+      {
+        "id": 2,
+        "nom": "Robe d'été légère",
+        "taille": ["M", "L", "XL"],
+        "couleur": ["noir", "gris", "beige"],
+        "prix": 89.99,
+        "image_url":  "./src/img/f/BZG68_1_ZC1_large.webp"
+      },
+      {
+        "id": 3,
+        "nom": "Robe d'été légère",
+        "taille": ["S", "M", "L"],
+        "couleur": ["bleu", "blanc", "rose"],
+        "prix": 49.99,
+        "image_url": "./src/img/f/BZG68_1_ZC1_large.webp"
+      },
+      {
+        "id": 4,
+        "nom": "Robe d'été légère",
+        "taille": ["S", "M", "L"],
+        "couleur": ["bleu", "blanc", "rose"],
+        "prix": 49.99,
+        "image_url": "./src/img/f/images (1).jpeg"
+      },
+      {
+        "id": 5,
+        "nom": "Robe d'été légère",
+        "taille": ["S", "M", "L"],
+        "couleur": ["bleu", "blanc", "rose"],
+        "prix": 49.99,
+        "image_url": "./src/img/f/images (2).jpeg"
+      },
+      {
+        "id": 6,
+        "nom": "Robe d'été légère",
+        "taille": ["S", "M", "L"],
+        "couleur": ["bleu", "blanc", "rose"],
+        "prix": 49.99,
+        "image_url": "./src/img/f/images (3).jpeg"
+      },
+      {
+        "id": 7,
+        "nom": "Robe d'été légère",
+        "taille": ["S", "M", "L"],
+        "couleur": ["bleu", "blanc", "rose"],
+        "prix": 49.99,
+        "image_url": "./src/img/f/images (4).jpeg"
+      },
+      {
+        "id": 8,
+        "nom": "Robe d'été légère",
+        "taille": ["S", "M", "L"],
+        "couleur": ["bleu", "blanc", "rose"],
+        "prix": 49.99,
+        "image_url": "./src/img/f/images (5).jpeg"
+      },
+      {
+        "id": 9,
+        "nom": "Robe d'été légère",
+        "taille": ["S", "M", "L"],
+        "couleur": ["bleu", "blanc", "rose"],
+        "prix": 49.99,
+        "image_url": "./src/img/f/images (6).jpeg"
+      },
+      {
+        "id": 10,
+        "nom": "Robe d'été légère",
+        "taille": ["M", "L", "XL"],
+        "couleur": ["noir", "gris", "beige"],
+        "prix": 89.99,
+        "image_url": "./src/img/f/images (7).jpeg"
+      },
+      {
+        "id": 11,
+        "nom": "Robe d'été légère",
+        "taille": ["S", "M", "L"],
+        "couleur": ["bleu", "blanc", "rose"],
+        "prix": 49.99,
+        "image_url": "./src/img/f/images (8).jpeg"
+      },
+      {
+        "id": 12,
+        "nom": "Robe d'été légère",
+        "taille": ["S", "M", "L"],
+        "couleur": ["bleu", "blanc", "rose"],
+        "prix": 49.99,
+        "image_url": "./src/img/f/images (9).jpeg"
+      },
+      {
+        "id": 13,
+        "nom": "Robe d'été légère",
+        "taille": ["S", "M", "L"],
+        "couleur": ["bleu", "blanc", "rose"],
+        "prix": 49.99,
+        "image_url": "./src/img/f/images (10).jpeg"
+      },
+      {
+        "id": 14,
+        "nom": "Robe d'été légère",
+        "taille": ["S", "M", "L"],
+        "couleur": ["bleu", "blanc", "rose"],
+        "prix": 49.99,
+        "image_url":"./src/img/f/images (11).jpeg"
+      },
+      {
+        "id": 15,
+        "nom": "Robe d'été légère",
+        "taille": ["S", "M", "L"],
+        "couleur": ["bleu", "blanc", "rose"],
+        "prix": 49.99,
+        "image_url":"./src/img/f/images.jpeg"
+      },
+      {
+        "id": 16,
+        "nom": "Robe d'été légère",
+        "taille": ["S", "M", "L"],
+        "couleur": ["bleu", "blanc", "rose"],
+        "prix": 49.99,
+        "image_url":"./src/img/f/ROBE.jpeg"
+      }
+    ],
+    "hommes": [
+      {
+        "id": 17,
+        "nom": "Chemise en lin",
+        "taille": ["S", "M", "L", "XL"],
+        "couleur": ["blanc", "bleu", "vert"],
+        "prix": 39.99,
+        "image_url": "./src/img/h/66dd991f67bde37c9806db33cf5fc49c--men-blazer-blazer-jacket.jpg"
+      },
+      {
+        "id": 18,
+        "nom": "Pantalon chino",
+        "taille": ["M", "L", "XL"],
+        "couleur": ["kaki", "noir", "marron"],
+        "prix": 59.99,
+        "image_url": "./src/img/h/14454-62f39588591d0-jpg_1280x1280@2x.jpg"
+      },
+      {
+        "id": 19,
+        "nom": "Chemise en lin",
+        "taille": ["S", "M", "L", "XL"],
+        "couleur": ["blanc", "bleu", "vert"],
+        "prix": 39.99,
+        "image_url": "./src/img/h/713143dfae3a66d8dc245a61c3669e3e-261945-1000_1000.webp"
+      },
+      {
+        "id": 20,
+        "nom": "Pantalon chino",
+        "taille": ["M", "L", "XL"],
+        "couleur": ["kaki", "noir", "marron"],
+        "prix": 59.99,
+        "image_url": "./src/img/h/caucasian-man-wearing-white-shirt-trendy-hairstyle-fashion-portrait-handsome-man-trendy-hairstyle-stylish-100736900.webp"
+      },
+      {
+        "id": 21,
+        "nom": "Chemise en lin",
+        "taille": ["S", "M", "L", "XL"],
+        "couleur": ["blanc", "bleu", "vert"],
+        "prix": 39.99,
+        "image_url": "./src/img/h/confident-in-his-style-handsome-young-man-adjusting-his-sunglasses-while-standing-against-white-background-photo.jpg"
+      },
+      {
+        "id": 22,
+        "nom": "Pantalon chino",
+        "taille": ["M", "L", "XL"],
+        "couleur": ["kaki", "noir", "marron"],
+        "prix": 59.99,
+        "image_url": "./src/img/h/fashion-business-man-passing-his-hand-his-hair-relaxed-young-35062453.webp"
+      },
+      {
+        "id": 23,
+        "nom": "Chemise en lin",
+        "taille": ["S", "M", "L", "XL"],
+        "couleur": ["blanc", "bleu", "vert"],
+        "prix": 39.99,
+        "image_url": "./src/img/h/handsome-man-looking-lateral_1368-9661.jpg"
+      },
+      {
+        "id": 24,
+        "nom": "Pantalon chino",
+        "taille": ["M", "L", "XL"],
+        "couleur": ["kaki", "noir", "marron"],
+        "prix": 59.99,
+        "image_url": "./src/img/h/f/IKKS-VESTE-MAILLE-HOMME-MP40073-48_2.jpg"
+      },
+      {
+        "id": 25,
+        "nom": "Chemise en lin",
+        "taille": ["S", "M", "L", "XL"],
+        "couleur": ["blanc", "bleu", "vert"],
+        "prix": 39.99,
+        "image_url": "./src/img/h/istockphoto-1042817258-612x612.jpg"
+      },
+      {
+        "id": 26,
+        "nom": "Pantalon chino",
+        "taille": ["M", "L", "XL"],
+        "couleur": ["kaki", "noir", "marron"],
+        "prix": 59.99,
+        "image_url": "./src/img/h/Man-Brown-Sport-Coat-Check-Shirt-Jeans-Glasses-778x1536.jpg"
+      },
+      {
+        "id": 27,
+        "nom": "Chemise en lin",
+        "taille": ["S", "M", "L", "XL"],
+        "couleur": ["blanc", "bleu", "vert"],
+        "prix": 39.99,
+        "image_url": "./src/img/h/man-posing-camera-his-hands-pockets-attractive-young-casual-isolated-white-background-46332253.webp"
+      },
+      {
+        "id": 28,
+        "nom": "Pantalon chino",
+        "taille": ["M", "L", "XL"],
+        "couleur": ["kaki", "noir", "marron"],
+        "prix": 59.99,
+        "image_url": "./src/img/h/min1_2304.jpg"
+      },
+      {
+        "id": 29,
+        "nom": "Chemise en lin",
+        "taille": ["S", "M", "L", "XL"],
+        "couleur": ["blanc", "bleu", "vert"],
+        "prix": 39.99,
+        "image_url": "./src/img/h/mystified-guy-looking-to-side-over-his-shoulder-mystified-guy-looking-to-side-over-his-shoulder-wearing-blue-suit-147475146.webp "
+      },
+      {
+        "id": 30,
+        "nom": "Pantalon chino",
+        "taille": ["M", "L", "XL"],
+        "couleur": ["kaki", "noir", "marron"],
+        "prix": 59.99,
+        "image_url": "./src/img/h/OIP.jpg"
+      },
+      {
+        "id": 31,
+        "nom": "Chemise en lin",
+        "taille": ["S", "M", "L", "XL"],
+        "couleur": ["blanc", "bleu", "vert"],
+        "prix": 39.99,
+        "image_url": "./src/img/h/portrait-of-a-handsome-man-in-suit-photo.jpg"
+      },
+      {
+        "id": 32,
+        "nom": "Pantalon chino",
+        "taille": ["M", "L", "XL"],
+        "couleur": ["kaki", "noir", "marron"],
+        "prix": 59.99,
+        "image_url": "./src/img/h/R.jpg"
+      },
+      {
+        "id": 33,
+        "nom": "Chemise en lin",
+        "taille": ["S", "M", "L", "XL"],
+        "couleur": ["blanc", "bleu", "vert"],
+        "prix": 39.99,
+        "image_url": "./src/img/h/sexy-fashion-man-holding-collar-posing-blue-suit-wearing-sunglasses-grey-background-162927304.webp"
+      },
+      {
+        "id": 34,
+        "nom": "Pantalon chino",
+        "taille": ["M", "L", "XL"],
+        "couleur": ["kaki", "noir", "marron"],
+        "prix": 59.99,
+        "image_url": "./src/img/h/smiling-business-man-putting-his-sunglasses-holding-one-hand-pocket-looking-camera-45553951.webp"
+      },
+      {
+        "id": 35,
+        "nom": "Chemise en lin",
+        "taille": ["S", "M", "L", "XL"],
+        "couleur": ["blanc", "bleu", "vert"],
+        "prix": 39.99,
+        "image_url": "./src/img/h/smiling-business-man-unbuttoning-his-jacket-leaning-white-wall-looking-camera-45553929.webp"
+      },
+      {
+        "id": 36,
+        "nom": "Pantalon chino",
+        "taille": ["M", "L", "XL"],
+        "couleur": ["kaki", "noir", "marron"],
+        "prix": 59.99,
+        "image_url": "./src/img/h/stock-photo-handsome-fashion-model-unbuttoning-his-jacket-while-wearing-sunglasses-standing-on-white-studio-1654799839.jpg"
+      },
+      {
+        "id": 37,
+        "nom": "Chemise en lin",
+        "taille": ["S", "M", "L", "XL"],
+        "couleur": ["blanc", "bleu", "vert"],
+        "prix": 39.99,
+        "image_url": "./src/img/h/stock-photo-simple-polo-shirt-man-wearing-suit-business-look-photoshoot-1934277965.jpg"
+      },
+      {
+        "id": 38,
+        "nom": "Pantalon chino",
+        "taille": ["M", "L", "XL"],
+        "couleur": ["kaki", "noir", "marron"],
+        "prix": 59.99,
+        "image_url": "./src/img/h/stylish-handsome-fashionable-young-man-in-smart-casual-wear-posing-against-white-background-photo.jpg"
+      },
+      {
+        "id": 40,
+        "nom": "Pantalon chino",
+        "taille": ["M", "L", "XL"],
+        "couleur": ["kaki", "noir", "marron"],
+        "prix": 59.99,
+        "image_url": "./src/img/h/stylish-ready-work-studio-shot-handsome-well-dressed-young-man-stylish-ready-work-studio-shot-256865229.webp"
+      }
+    ],
+    "filles": [
+      {
+        "id": 41,
+        "nom": "Robe à fleurs",
+        "taille": ["4 ans", "6 ans", "8 ans"],
+        "couleur": ["rose", "violet", "jaune"],
+        "prix": 29.99,
+        "image_url": "./src/img/fille/1.jpg"
+      },
+      {
+        "id": 42,
+        "nom": "Jupe plissée",
+        "taille": ["6 ans", "8 ans", "10 ans"],
+        "couleur": ["rouge", "bleu", "noir"],
+        "prix": 24.99,
+        "image_url": "./src/img/garcon/children-fashion-concept-little-boy-iand-girl-isolated-on-white-background-2C80TXFR.jpg"
+      },
+      {
+        "id": 43,
+        "nom": "T-shirt super-héros",
+        "taille": ["4 ans", "6 ans", "8 ans"],
+        "couleur": ["rouge", "bleu", "noir"],
+        "prix": 19.99,
+        "image_url": "./src/img/garcon/cute-young-boy-stylish-outfit-striking-pose-against-white-backdrop-trendy-look_163305-323034.avif.jpg"
+      },
+      {
+        "id": 44,
+        "nom": "Short en jean",
+        "taille": ["6 ans", "8 ans", "10 ans"],
+        "couleur": ["bleu", "gris", "noir"],
+        "prix": 34.99,
+        "image_url": "./src/img/fille/funny-teenage-girl-smiles-shyly-white-background-isolated_169016-48844.avif.jpg"
+      },
+     
+      {
+        "id": 47,
+        "nom": "Robe à fleurs",
+        "taille": ["4 ans", "6 ans", "8 ans"],
+        "couleur": ["rose", "violet", "jaune"],
+        "prix": 29.99,
+        "image_url": "./src/img/fille//images (3).jpeg.jpg"
+      },
+      {
+        "id": 48,
+        "nom": "Jupe plissée",
+        "taille": ["6 ans", "8 ans", "10 ans"],
+        "couleur": ["rouge", "bleu", "noir"],
+        "prix": 24.99,
+        "image_url": "./src/img/fille//images (4).jpeg"
+      },
+      {
+        "id": 49,
+        "nom": "T-shirt super-héros",
+        "taille": ["4 ans", "6 ans", "8 ans"],
+        "couleur": ["rouge", "bleu", "noir"],
+        "prix": 19.99,
+        "image_url": "./src/img/fille//images (5).jpeg"
+      },
+      {
+        "id": 50,
+        "nom": "Short en jean",
+        "taille": ["6 ans", "8 ans", "10 ans"],
+        "couleur": ["bleu", "gris", "noir"],
+        "prix": 34.99,
+        "image_url": "./src/img/fille//images (6).jpeg"
+      },
+      {
+        "id": 51,
+        "nom": "T-shirt super-héros",
+        "taille": ["4 ans", "6 ans", "8 ans"],
+        "couleur": ["rouge", "bleu", "noir"],
+        "prix": 19.99,
+        "image_url": "./src/img/fille//images (7).jpeg"
+      },
+      {
+        "id": 52,
+        "nom": "Short en jean",
+        "taille": ["6 ans", "8 ans", "10 ans"],
+        "couleur": ["bleu", "gris", "noir"],
+        "prix": 34.99,
+        "image_url": "./src/img/garcon/images (8).jpeg"
+      },
+    
+      {
+        "id": 56,
+        "nom": "Short en jean",
+        "taille": ["6 ans", "8 ans", "10 ans"],
+        "couleur": ["bleu", "gris", "noir"],
+        "prix": 34.99,
+        "image_url": "./src/img/garcon/images (12).jpeg"
+      },
+      {
+        "id": 57,
+        "nom": "T-shirt super-héros",
+        "taille": ["4 ans", "6 ans", "8 ans"],
+        "couleur": ["rouge", "bleu", "noir"],
+        "prix": 19.99,
+        "image_url": "./src/img/fille/images (13).jpeg"
+      },
+      {
+        "id": 58,
+        "nom": "T-shirt super-héros",
+        "taille": ["4 ans", "6 ans", "8 ans"],
+        "couleur": ["rouge", "bleu", "noir"],
+        "prix": 19.99,
+        "image_url": "./src/img/fille/images (14).jpeg"
+      },
+      {
+        "id": 59,
+        "nom": "Short en jean",
+        "taille": ["6 ans", "8 ans", "10 ans"],
+        "couleur": ["bleu", "gris", "noir"],
+        "prix": 34.99,
+        "image_url": "./src/img/fille/images (15).jpeg"
+      },
+      {
+        "id": 60,
+        "nom": "Robe à fleurs",
+        "taille": ["4 ans", "6 ans", "8 ans"],
+        "couleur": ["rose", "violet", "jaune"],
+        "prix": 29.99,
+        "image_url": "./src/img/fille/images (16).jpeg"
+      },
+      
+      {
+        "id": 62,
+        "nom": "T-shirt super-héros",
+        "taille": ["4 ans", "6 ans", "8 ans"],
+        "couleur": ["rouge", "bleu", "noir"],
+        "prix": 19.99,
+        "image_url": "./src/img/fille/images (18).jpeg"
+      },
+      {
+        "id": 63,
+        "nom": "Short en jean",
+        "taille": ["6 ans", "8 ans", "10 ans"],
+        "couleur": ["bleu", "gris", "noir"],
+        "prix": 34.99,
+        "image_url": "./src/img/fille/images (19).jpeg"
+      },
+      {
+        "id": 64,
+        "nom": "T-shirt super-héros",
+        "taille": ["4 ans", "6 ans", "8 ans"],
+        "couleur": ["rouge", "bleu", "noir"],
+        "prix": 19.99,
+        "image_url": "./src/img/fille/images (20).jpeg"
+      }
+    ],
+    "garcons" :[
+      {
+        "id": 45,
+        "nom": "T-shirt super-héros",
+        "taille": ["4 ans", "6 ans", "8 ans"],
+        "couleur": ["rouge", "bleu", "noir"],
+        "prix": 19.99,
+        "image_url": "./src/img/garcon/images (1).jpeg.jpg"
+      },
+      {
+        "id": 46,
+        "nom": "Short en jean",
+        "taille": ["6 ans", "8 ans", "10 ans"],
+        "couleur": ["bleu", "gris", "noir"],
+        "prix": 34.99,
+        "image_url": "./src/img/garcon/images (2).jpeg.jpg"
+      }
+      ,{
+        "id": 61,
+        "nom": "Jupe plissée",
+        "taille": ["6 ans", "8 ans", "10 ans"],
+        "couleur": ["rouge", "bleu", "noir"],
+        "prix": 24.99,
+        "image_url": "./src/img/garcon/images (17).jpeg"
+      }
+    ]
+  }

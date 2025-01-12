@@ -1,42 +1,475 @@
-#root {
-  max-width: 1280px;
+.header  {
+  background: linear-gradient(to bottom,#131313,#13191a); /* Dégradé de bleu pour l'en-tête */
+  color: white; /* Texte en blanc */
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  top: 0;
+}
+.back{
+  background-color: #131313;
+  bottom: 0;
+}
+body {
+  /* Dégradé de bleu */
+  background: #ffffff;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+.text{color: white;}
+
+.input {
+  color: #ec870b;
+}
+
+.header {
+  transition: all 1s ease;
+}
+
+.header:hover {
+  padding: 9px;
+  box-shadow: 0 4px 6px -1px #dad4b5, 0 2px 4px -1px #dad4b5;
+  /* background-color: #4c4d49; */
+}
+
+/* Logo Section */
+
+.titre {
+  font-family: "Times New Roman", Times, serif;
+}
+/* section de menu  */
+/* محاذاة داخل العناصر باستخدام Flexbox */
+/* تصميم القسم الرئيسي */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.CardHeader {
+  background-color: #f2943b;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 30%;
+  max-width: 400px; /* تحديد الحد الأقصى للعرض */
+  margin-bottom: 20px; /* مسافة أسفل البطاقة */
+  display: flex;
+  flex-direction: column; /* ترتيب العناصر بشكل عمودي */
+  align-items: center;
+  position: relative; /* تحديد مرجعية الموضع */
+}
+
+.CardHeader:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.cardImg {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* يجعل الصورة تتناسب دون تشويه */
+  display: block;
+}
+
+.CardHeader h3 {
+  position: absolute; /* جعل النص يطفو فوق الصورة */
+  top: 50%; /* وضع النص في منتصف الصورة عموديًا */
+  left: 50%; /* وضع النص في منتصف الصورة أفقيًا */
+  transform: translate(-50%, -50%); /* جعل النص في المنتصف تمامًا */
+  font-size: 1.5rem;
+  color: white; /* جعل النص أبيض ليظهر بوضوح فوق الصورة */
+  margin: 0; /* إزالة الهوامش */
+  font-weight: bold; /* جعل الخط عريض */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* إضافة ظل للنص لجعله أكثر وضوحًا */
+}
+
+/* section de about */
+
+.about {
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 40px 15px;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  gap: 30px;
+}
+
+/* Image Grid Styles */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.02);
+}
+
+/* Text Content Styles */
+.navAbout:last-child {
+  padding: 20px 0;
+}
+
+.navAbout p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* About Us Header */
+.about-header {
+  margin-bottom: 20px;
+}
+
+.about-header h2 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-header span {
+  color: #ffa500;
+  font-style: italic;
+}
+
+/* Stats Section */
+.stats-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.stat-number {
+  font-size: 3em;
+  color: #ffa500;
+  font-weight: bold;
+}
+
+.stat-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-label {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.stat-title {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* Read More Button */
+.read-more {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #ffa500;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #ff8c00;
+}
+/* styles.css */
+
+/* Container du slider */
+.products-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  padding: 20px;
+  gap: 20px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* Conteneur des cartes de produits */
+.product-cards {
+  display: flex;
+  gap: 15px;
+  scroll-snap-align: center; /* كل عنصر سيُحاذى في المنتصف عند التمرير */
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+/* Carte de produit */
+.product-card {
+  width: 250px;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  scroll-snap-align: center;
+}
+
+/* Image de produit */
+.product-card img {
+  width: 100%;
+  height: 60%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+/* Titres et paragraphes */
+.product-card h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+/* Style du slider pour le défilement fluide */
+.products-slider::-webkit-scrollbar {
+  height: 8px;
+}
+
+.products-slider::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.products-slider::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.products-slider::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Style pour la carte sélectionnée */
+.product-card.selected {
+  border-color: #e2730d;
+  background-color: #f0f8f0;
+}
+/* Style du bouton "ajouter" */
+.btn {
+  background-color: #d4a36b; /* Vert de fond */
+  color: white; /* Texte blanc */
+  border: none; /* Pas de bordure */
+  padding: 12px 24px; /* Espacement interne */
+  font-size: 16px; /* Taille de la police */
+  cursor: pointer; /* Curseur en forme de main */
+  border-radius: 5px; /* Coins arrondis */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transition pour l'effet de survol */
+  bottom: 100%;
+}
+
+/* Effet au survol */
+.btn:hover {
+  background-color: #e2730d; /* Changer la couleur de fond au survol */
+  transform: scale(1.05); /* Légère agrandissement du bouton */
+}
+
+/* Effet au clic */
+.btn:active {
+  transform: scale(0.98); /* Réduit la taille du bouton au clic */
+  background-color: #e2730d; /* Changer la couleur lors du clic */
+}
+
+.titr {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.titr::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #ff5722; /* Couleur de la ligne */
+  margin: 0.5rem auto 0; /* Centrer la ligne sous le texte */
+  border-radius: 5px; /* Coins arrondis */
+}
+.sous-titr {
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #555;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+/* section de card  */
+/* Conteneur principal des cartes */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Espacement entre les cartes */
+  margin: 20px;
+  padding: 10px;
+}
+
+/* Carte individuelle */
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px; /* Espacement entre les cartes individuelles */
+}
+
+/* Carte produit */
+.pro {
+  width: 250px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  padding: 10px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Effet au survol */
+/* .pro:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+} */
+
+/* Carte sélectionnée */
+.pro.selected {
+  border: 2px solid #ff5722;
+  background-color: #f0f8ff;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Image du produit */
+.image-card {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Titre du produit */
+.pro h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
 }
 
-.card {
-  padding: 2em;
+/* Détails du produit */
+.pro p {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+/* section de panier  */
+/* Panier container */
+.panier-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 60px auto 60px;
+  background-color: #f4f4f4a7;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.read-the-docs {
-  color: #888;
+.panier-container h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.panier-container p {
+  text-align: center;
+  color: #666;
+  font-size: 18px;
+}
+
+/* Panier item style */
+.panier-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.panier-item img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.panier-item h3 {
+  color: #333;
+  font-size: 18px;
+}
+
+.panier-item p {
+  color: #777;
+  font-size: 14px;
+}
+
+.bntDelete {
+  background-color: #ff5f5f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bntDelete:hover {
+  background-color: #ff4040;
+}
+
+/* Total section */
+.total {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.total h3 {
+  font-size: 22px;
+  color: #333;
+  font-weight: bold;
 }
