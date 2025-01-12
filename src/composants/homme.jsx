@@ -1,8 +1,10 @@
 import React, { useState, useContext } from "react";
 import { ChicContext } from "./appContext";
+import { useDispatch } from "react-redux";
 
 export default function Homme() {
-  const { state, handleAdd } = useContext(ChicContext); 
+  const state = useSelector(state => state)
+  const dispatch = useDispatch()
   const [selectedIndex, setSelectedIndex] = useState(null);
 
   const handleCardClick = (index) => {
@@ -24,7 +26,8 @@ export default function Homme() {
             <p>Prix : {item.prix} €</p>
             <p>Tailles : {item.taille.join(", ")}</p>
             <p>Couleurs : {item.couleur.join(", ")}</p>
-            <button className="btn" onClick={() => handleAdd(item)}>
+            <button className="btn" onClick={() =>dispatch({type:'ajouter' , payload : item})}>
+
               Ajouter
             </button>
           </div>

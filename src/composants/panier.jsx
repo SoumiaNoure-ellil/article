@@ -24,7 +24,7 @@ export default function AddPanier() {
               <p>Tailles : {item.taille.join(", ")}</p>
               <p>Couleurs : {item.couleur.join(", ")}</p>
               <div>
-                <button className="bntDelete" onClick={() => handleDelete(index)}>
+                <button className="bntDelete" onClick={() => dispatch({type : 'supprimer' , payload : index})}>
                   Supprimer
                 </button>
               </div>

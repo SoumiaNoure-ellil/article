@@ -1,29 +1,23 @@
 // store.js
 import { createStore } from 'redux';
+import data from '../data.json';
 
 const initialState = {
-  data: {
-    femmes: [],
-    hommes: [],
-    filles: [],
-    garcons: []
-  },
-  panier: []
+    femmes: data.femmes,
+    hommes: data.hommes,
+    filles: data.filles,
+    garcons: data.garcons ,
+   panier: []
 };
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case 'SET_DATA':
-      return {
-        ...state,
-        data: action.payload
-      };
-    case 'ADD_TO_PANIER':
+    case 'ajouter':
       return {
         ...state,
         panier: [...state.panier, action.payload]
       };
-    case 'REMOVE_FROM_PANIER':
+    case 'supprimer':
       return {
         ...state,
         panier: state.panier.filter((_, index) => index !== action.payload)

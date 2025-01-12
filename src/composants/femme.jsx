@@ -1,9 +1,9 @@
-
-import React, { useState, useContext } from "react";
-import { ChicContext } from "./appContext";
+import React, { useState } from "react" ;
+import { useDispatch, useSelector } from "react-redux";
 
 export default function Femme() {
-  const {state, handleAdd } = useContext(ChicContext);
+  const state = useSelector(state => state)
+  const dispatch = useDispatch()
   const [selectedIndex, setSelectedIndex] = useState(null);
 
   
@@ -26,7 +26,7 @@ export default function Femme() {
             <p>Prix : {item.prix} €</p>
             <p>Tailles : {item.taille.join(", ")}</p>
             <p>Couleurs : {item.couleur.join(", ")}</p>
-            <button className="btn" onClick={() => handleAdd(item)}>
+            <button className="btn" onClick={() => dispatch({type:'ajouter' , payload : item})}>
               Ajouter
             </button>
           </div>

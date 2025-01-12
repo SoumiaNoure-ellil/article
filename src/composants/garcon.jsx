@@ -1,8 +1,10 @@
 import React, { useState, useContext } from "react";
+import { useDispatch, useSelector } from "react-redux";
 
 
 export default function Garcon() {  // Retirez la prop garcon ici
-    
+  const state = useSelector(state => state)
+  const dispatch = useDispatch()
   const [selectedIndex, setSelectedIndex] = useState(null);
 
   const handleCardClick = (index) => {
@@ -24,7 +26,8 @@ export default function Garcon() {  // Retirez la prop garcon ici
             <p>Prix : {item.prix} €</p>
             <p>Tailles : {item.taille.join(", ")}</p>
             <p>Couleurs : {item.couleur.join(", ")}</p>
-            <button className="btn" onClick={() => handleAdd(item)}>
+            <button className="btn" onClick={() =>dispatch({type:'ajouter' , payload : item})}>
+
               Ajouter
             </button>
           </div>
