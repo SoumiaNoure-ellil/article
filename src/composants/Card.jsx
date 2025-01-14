@@ -26,10 +26,16 @@ export default function Card({ data }) {
             <h3>{item.nom}</h3>
             <p>Prix : {item.prix.toFixed(2)} €</p>
             <p>
-              Tailles : {item.taille?.length ? item.taille.join(", ") : "Non spécifiées"}
+              Tailles :{" "}
+              {item.taille?.map((ele, index) => (
+                <button key={index}>{ele}</button>
+              ))}
             </p>
             <p>
-              Couleurs : {item.couleur?.length ? item.couleur.join(", ") : "Non spécifiées"}
+              Couleurs :{" "}
+              {item.couleur?.map((ele, index) => (
+                <button key={index}>{ele}</button>
+              ))}
             </p>
             <button
               className="btn"
