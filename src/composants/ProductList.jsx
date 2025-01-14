@@ -14,8 +14,23 @@ export default function ProductList({ category }) {
             <img src={item.image_url} alt={item.nom} className="image-card" />
             <h3>{item.nom}</h3>
             <p>Prix : {item.prix} €</p>
-            <button className="btn" onClick={() => dispatch({ type: 'AJOUTER', payload: item })}>
-            Ajouter au panier
+            <p>
+              Tailles :{" "}
+              {item.taille?.map((ele, index) => (
+                <button key={index}>{ele}</button>
+              ))}
+            </p>
+            <p>
+              Couleurs :{" "}
+              {item.couleur?.map((ele, index) => (
+                <button key={index}>{ele}</button>
+              ))}
+            </p>
+            <button
+              className="btn"
+              onClick={() => dispatch({ type: "AJOUTER", payload: item })}
+            >
+              Ajouter au panier
             </button>
           </div>
         ))}
