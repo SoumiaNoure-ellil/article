@@ -3,7 +3,7 @@ import Card from "./Card";
 import { useState, useEffect } from "react";
 
 export default function Accueil() {
-  const data = useSelector(state => state.data);
+  const data = useSelector((state) => state.produits);
   const [count, setCount] = useState(0);
   const maxCount = 1100;
   const delay = 100;
@@ -21,26 +21,29 @@ export default function Accueil() {
     return () => clearInterval(intervalId);
   }, []);
 
+  // Validation des données du store
+  const { femmes = [], hommes = [], filles = [], garcons = [] } = data;
+
   return (
-    <div className="">
+    <div className="accueil">
       <div className="about">
-        <div className="image-grid">
+      <div class="image-grid">
           <img
-            src="./src/composants/image/young-handsome-man-choosing-shoes-shop_1303-19731.jpg"
+            src="./src/composions/image/young-handsome-man-choosing-shoes-shop_1303-19731.jpg"
             alt="Collection Chik&Click"
           />
           <img
-            src="./src/composants/image/young-boy-outdoor_23-2148551200.jpg"
+            src="./src/composions/image/young-boy-outdoor_23-2148551200.jpg"
             style={{ width: "200px", height: "200px", marginTop: "40%" }}
             alt="Style Chik&Click"
           />
           <img
-            src="./src/composants/image/f.avif"
+            src="./src/composions/image/f.avif"
             alt="Mode Chik&Click"
             style={{ width: "200px", height: "200px", marginLeft: "20%" }}
           />
           <img
-            src="./src/composants/image/beautiful-mature-woman-posing-with-fashion-clothes.jpg"
+            src="./src/composions/image/beautiful-mature-woman-posing-with-fashion-clothes.jpg"
             alt="Tendances Chik&Click"
           />
         </div>
@@ -96,7 +99,7 @@ export default function Accueil() {
         <Card data={data.hommes} />
         <h1 className="sous-titr">Filles</h1>
         <Card data={data.filles} />
-        <h1 className="sous-titr">Garcons</h1>
+        <h1 className="sous-titr">Garçons</h1>
         <Card data={data.garcons} />
       </div>
     </div>
