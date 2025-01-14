@@ -199,7 +199,7 @@ body {
 /* Container du slider */
 .products-slider {
   display: flex;
-  justify-content: center;
+ 
   align-items: center;
   overflow-x: auto;
   padding: 20px;
