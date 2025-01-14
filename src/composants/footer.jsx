@@ -3,7 +3,7 @@ import { Instagram, Mail, MessageCircle, CreditCard, Truck, Shield, Gift, Heart,
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r back  ">
+    <footer className="bg-gradient-to-r back mt-60">
       <div className="border-b border-x-lime-200 text ">
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 py-8 px-4">
           <div className="flex items-center gap-3">

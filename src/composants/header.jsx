@@ -4,7 +4,7 @@ import { Home, LogIn, Phone, Search, ShoppingCart } from "lucide-react";
 export default function Header() {
   return (
     <>
-      <header className=" header grid grid-cols-3 space-x-16 w-full ">
+      <header className=" header grid grid-cols-3 space-x-16 w-full back ">
         
         <div className=" flex space-x-1 ">
           <img

@@ -1,16 +1,12 @@
 export default function Login() {
   return (
-   <div className="min-h-screen flex flex-col items-center justify-center bg-black">
+   <div className="min-h-screen flex flex-col items-center justify-center rounded-xl -m-96  ">
      <div className="w-full max-w-md space-y-8">
-      
        <h1 className="text-5xl font-bold text-center bg-gradient-to-r from-orange-500 to-orange-300 bg-clip-text text-transparent">
          Chic&Click
        </h1>
-
-      
-       <form  className="bg-gray-900 p-8 rounded-xl shadow-2xl border border-orange-500/20">
-         <div className="space-y-6">
-          
+       <form  className="back p-8 rounded-xl shadow-2xl border border-orange-500/20">
+         <div className="space-y-6">  
            <div>
              <label 
                htmlFor="email" 
@@ -25,8 +21,7 @@ export default function Login() {
               
                className="w-full px-4 py-3 bg-gray-800 text-white border-2 border-gray-700 rounded-lg focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/50 transition-all"
                placeholder="votre@email.com"
-             />
-            
+             />   
            </div>
 
           

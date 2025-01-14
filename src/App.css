@@ -7,7 +7,7 @@
   top: 0;
 }
 .back{
-  background-color: #131313;
+  background: linear-gradient(to bottom,#131313,#13191a); 
   bottom: 0;
 }
 body {
@@ -28,11 +28,7 @@ body {
   transition: all 1s ease;
 }
 
-.header:hover {
-  padding: 9px;
-  box-shadow: 0 4px 6px -1px #dad4b5, 0 2px 4px -1px #dad4b5;
-  /* background-color: #4c4d49; */
-}
+
 
 /* Logo Section */
 
@@ -399,10 +395,11 @@ body {
 .panier-container {
   padding: 20px;
   max-width: 1200px;
-  margin: 60px auto 60px;
+  margin: 90px auto 100px;
   background-color: #f4f4f4a7;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 100px;
 }
 
 .panier-container h1 {
