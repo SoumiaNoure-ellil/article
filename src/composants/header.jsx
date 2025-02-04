@@ -44,7 +44,7 @@ export default function Header() {
             <LogIn size={50} />
 
             <span className="hidden group-hover:block absolute -bottom-6 left-1/2 -translate-x-1/2 text-sm whitespace-nowrap">
-              connecter
+            login
             </span>
           </Link>
           <Link
@@ -64,8 +64,7 @@ export default function Header() {
             <span className="hidden group-hover:block absolute -bottom-6 left-1/2 -translate-x-1/2 text-sm whitespace-nowrap">
               panier
             </span>
-          </Link>
-        </nav>
+          </Link>         </nav>
       </header>
       {/* section de menu  */}
       <section className="menu">
